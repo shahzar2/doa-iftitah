@@ -1,0 +1,105 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Navigation Buttons</title>
+  <style>
+    body {
+      background-color: #121212;
+      color: #ffffff;
+      font-family: Arial, sans-serif;
+      text-align: center;
+      padding-top: 50px;
+    }
+    .nav-button {
+      display: inline-block;
+      margin: 10px;
+      padding: 15px 25px;
+      font-size: 16px;
+      color: #fff;
+      background-color: #1e88e5;
+      border: none;
+      border-radius: 5px;
+      text-decoration: none;
+      transition: background-color 0.3s ease;
+    }
+    .nav-button:hover {
+      background-color: #1565c0;
+    }
+  </style>
+</head>
+<body>
+  <a href="https://www.ptsri.cc/bab2.html" class="nav-button">Bab 2</a>
+  <a href="https://www.ptsri.cc/bab3.html" class="nav-button">Bab 3</a>
+  <a href="https://www.ptsri.cc/bab4.html" class="nav-button">Bab 4</a>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>HTML Hosting Options</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 2em; background: #f9f9f9; color: #333; }
+    h1 { color: #0057b8; }
+    table { width: 100%; border-collapse: collapse; margin-top: 1em; }
+    th, td { border: 1px solid #ccc; padding: 0.75em; text-align: left; }
+    th { background-color: #e0e0e0; }
+    .highlight { background-color: #dff0d8; }
+    footer { margin-top: 2em; font-size: 0.9em; color: #666; }
+  </style>
+</head>
+<body>
+  <h1>Best Places to Host Your HTML File</h1>
+  <p>If you want to keep your HTML file online as a document or record page, here are the best options:</p>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Platform</th>
+        <th>Pros</th>
+        <th>Limitations</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr class="highlight">
+        <td>GitHub Pages</td>
+        <td>Free, supports custom domains, version control</td>
+        <td>Requires GitHub account and basic Git knowledge</td>
+      </tr>
+      <tr>
+        <td>Netlify</td>
+        <td>Drag-and-drop deploy, free tier, fast CDN</td>
+        <td>Slight learning curve for advanced features</td>
+      </tr>
+      <tr>
+        <td>Vercel</td>
+        <td>Great for static sites, Git integration</td>
+        <td>Best with Git-based workflows</td>
+      </tr>
+      <tr>
+        <td>Google Drive (public folder)</td>
+        <td>Easy to upload and share</td>
+        <td>Not ideal for full HTML rendering</td>
+      </tr>
+      <tr>
+        <td>Neocities</td>
+        <td>Simple, retro-style web hosting</td>
+        <td>Limited storage (10MB free), basic features</td>
+      </tr>
+      <tr>
+        <td>Blogspot (Blogger)</td>
+        <td>Can embed HTML in posts or pages</td>
+        <td>No full control over HTML files</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h2>Recommended for You</h2>
+  <p><strong>GitHub Pages</strong> – Ideal if you're comfortable with Git and want full control.</p>
+  <p><strong>Netlify</strong> – Perfect for quick drag-and-drop deployment with minimal setup.</p>
+
+  <footer>
+    Created for Regalidr – practical, efficient, and resourceful. Let me know if you want a step-by-step guide for GitHub or Netlify!
+  </footer>
+</body>
+</html>
